@@ -1,0 +1,12 @@
+.sended-orders {
+    width: 1140px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 90px auto;
+    position: relative;
+}
+
+.sended-orders > *:not(:last-child) {
+    margin-bottom: 20px;
+}

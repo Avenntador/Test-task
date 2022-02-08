@@ -1,0 +1,29 @@
+.add-order__container {
+    width: 1140px;
+    /* min-height: 700px; */
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 90px auto;
+}
+
+.back {
+    cursor: pointer;
+    color: rgb(30, 79, 187);
+    font-size: 19px; 
+}
+
+.add-order__form {
+    margin-top: 40px;
+}
+
+.add-order__form  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.add-order__form > *:not(:last-child) {
+    margin-bottom: 15px;
+}

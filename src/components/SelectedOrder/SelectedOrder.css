@@ -1,0 +1,39 @@
+.selected-order {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: rgb(236, 231, 231);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.back {
+    cursor: pointer;
+    color: rgb(30, 79, 187);
+    font-size: 19px; 
+}
+
+.selected-order > *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.selected-order__desc {
+    font-size: 18px;
+}
+
+.selected-order__comments > *:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.comments-form {
+    margin-top: 100px;
+}
+
+.comments-form > *:not(:last-child) {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
